@@ -1,0 +1,20 @@
+{
+    "name": "xtlsoft/gitap",
+    "description": "Gitap, a git server for php.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tianle Xu",
+            "email": "xtl@xtlsoft.top"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gitap\\": "./src/"
+        }
+    }
+}
