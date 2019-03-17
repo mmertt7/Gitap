@@ -10,12 +10,8 @@
 
 namespace Gitap;
 
-class Configure {
+class Handler {
 
-    public $fs = null;
-
-    public $repos = [
-        "Test.git" => "/test/"
-    ];
+    
 
 }
